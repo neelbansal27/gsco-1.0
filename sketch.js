@@ -1,7 +1,7 @@
 var wall,car;
 
 
-var bullet, speed, weight; 
+var  speed, weight; 
 
 
 function setup() {
@@ -22,7 +22,7 @@ function setup() {
 
 
   
-  	wall=createSprite(1200,200, thickness, height/2)
+  	wall=createSprite(1200,200, 60 , height/2)
   	wall.shapeColor=color(80,80,80)
 }
 
